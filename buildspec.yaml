@@ -2,10 +2,10 @@ version: 0.2
 
 phases:
  install:
- rubntime-versions:
+ runtime-versions:
  nodejs: 22
  commands:
- - echo installing source nmp dependencies...
+ - echo installing source npm dependencies...
  - npm install
 build:
  commands:
