@@ -11,7 +11,7 @@ build:
   commands:
      - echo build started on 'date'
      - echo building the node.js application...
-     - NPM run build
+     - npm run build
  post_build:
   commands:
      - echo build completed on 'date'
