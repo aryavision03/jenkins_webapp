@@ -4,16 +4,16 @@ phases:
  install:
    runtime-versions:
      nodejs: 22
- commands:
-  - echo Installing source NPM dependencies...
-  - npm install
+   commands:
+     - echo Installing source NPM dependencies...
+     - NPM install
 build:
   commands:
-    - echo build started on 'date'
-    - echo building the node.js application...
-    - NPM run build
+     - echo build started on 'date'
+     - echo building the node.js application...
+     - NPM run build
  post_build:
-   commands:
+  commands:
      - echo build completed on 'date'
 
  artifacts:
